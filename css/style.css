@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+.main-box {
+  margin: 20px 0;
+}
+
+.main-box div {
+  outline: 2px solid red;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* float */
+
+.first-box-flex {
+  background: orange;
+  display: flex;
+}
+
+.first-box-flex > div {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.second-box-flex {
+  background: rgb(129, 129, 179);
+  display: flex;
+}
+
+.second-box-flex > div {
+  width: 800px;
+  font-size: 20px;
+}
+
+.second-box-flex > div + div {
+  width: 400px;
+}
+
+.second-box-one-flex > div {
+  height: 200px;
+}
+
+.second-box-two-flex > div {
+  height: 133.333px;
+}
+
+.third-box-flex {
+  background: pink;
+  font-size: 0;
+  display: flex;
+}
+
+.third-box-flex > div {
+  font-size: 20px;
+}
+
+.third-box-one-flex {
+  width: 400px;
+  height: 400px;
+  display: flex;
+}
+
+.third-box-two-flex {
+  width: 800px;
+}
+
+.third-box-two-one-flex {
+  height: 200px;
+}
+
+.third-box-two-two-flex > div {
+  display: flex;
+  width: 400px;
+  height: 200px;
+}
+
+.third-box-two-two-two-flex > div {
+  height: 100px;
+  width: 400px;
+}
